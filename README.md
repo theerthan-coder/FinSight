@@ -1,16 +1,27 @@
-# React + Vite
+# 💸 FinSight - Smart Finance Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FinSight is a modern, full-stack personal finance dashboard designed to help users track their transactions, analyze spending habits, and gain insights into their financial health. 
 
-Currently, two official plugins are available:
+Built with a premium glassmorphic UI and a robust backend, it provides a seamless and visually stunning experience for managing your money.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Interactive Dashboard:** View your overall financial health score and summary cards.
+- **Analytics & Insights:** Beautiful, dynamic charts (powered by Recharts) breaking down spending by category.
+- **Transaction Management:** A dedicated page to view, search, and manage your recent transactions.
+- **Premium UI/UX:** Built from the ground up with custom CSS, modern typography, and smooth micro-animations.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, React Router, Recharts, Lucide Icons, Custom CSS
+- **Backend:** Java, Spring Boot, Maven
+- **Database:** (Add your database here, e.g., MySQL / PostgreSQL / H2)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Running the Project Locally
 
-## Expanding the ESLint configuration
+### Frontend
+1. Navigate to the frontend directory.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+1. Navigate to the backend directory.
+2. Run the Spring Boot application using your IDE or via Maven: `./mvnw spring-boot:run`
