@@ -25,3 +25,8 @@ Built with a premium glassmorphic UI and a robust backend, it provides a seamles
 ### Backend
 1. Navigate to the backend directory.
 2. Run the Spring Boot application using your IDE or via Maven: `./mvnw spring-boot:run`
+
+### Project Results !!!
+<img width="1920" height="1028" alt="1" src="https://github.com/user-attachments/assets/a72b871f-736d-4548-9925-daa12bdb2a5b" />
+
+
